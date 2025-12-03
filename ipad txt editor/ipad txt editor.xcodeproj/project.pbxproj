@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A28B72502EDFF3B100E882A0 /* CodeEditor in Frameworks */ = {isa = PBXBuildFile; productRef = A28B724F2EDFF3B100E882A0 /* CodeEditor */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A28B72222EDD8AA600E882A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A28B72092EDD8AA400E882A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A28B72102EDD8AA400E882A0;
+			remoteInfo = "ipad txt editor";
+		};
+		A28B722C2EDD8AA600E882A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A28B72092EDD8AA400E882A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A28B72102EDD8AA400E882A0;
+			remoteInfo = "ipad txt editor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A28B72112EDD8AA400E882A0 /* ipad txt editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ipad txt editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28B72212EDD8AA600E882A0 /* ipad txt editorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ipad txt editorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28B722B2EDD8AA600E882A0 /* ipad txt editorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ipad txt editorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A28B72332EDD8AA600E882A0 /* Exceptions for "ipad txt editor" folder in "ipad txt editor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A28B72102EDD8AA400E882A0 /* ipad txt editor */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A28B72132EDD8AA400E882A0 /* ipad txt editor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A28B72332EDD8AA600E882A0 /* Exceptions for "ipad txt editor" folder in "ipad txt editor" target */,
+			);
+			path = "ipad txt editor";
+			sourceTree = "<group>";
+		};
+		A28B72242EDD8AA600E882A0 /* ipad txt editorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ipad txt editorTests";
+			sourceTree = "<group>";
+		};
+		A28B722E2EDD8AA600E882A0 /* ipad txt editorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ipad txt editorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A28B720E2EDD8AA400E882A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28B72502EDFF3B100E882A0 /* CodeEditor in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28B721E2EDD8AA600E882A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28B72282EDD8AA600E882A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A28B72082EDD8AA400E882A0 = {
+			isa = PBXGroup;
+			children = (
+				A28B72132EDD8AA400E882A0 /* ipad txt editor */,
+				A28B72242EDD8AA600E882A0 /* ipad txt editorTests */,
+				A28B722E2EDD8AA600E882A0 /* ipad txt editorUITests */,
+				A28B724E2EDFF3B100E882A0 /* Frameworks */,
+				A28B72122EDD8AA400E882A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A28B72122EDD8AA400E882A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A28B72112EDD8AA400E882A0 /* ipad txt editor.app */,
+				A28B72212EDD8AA600E882A0 /* ipad txt editorTests.xctest */,
+				A28B722B2EDD8AA600E882A0 /* ipad txt editorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A28B724E2EDFF3B100E882A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A28B72102EDD8AA400E882A0 /* ipad txt editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28B72342EDD8AA600E882A0 /* Build configuration list for PBXNativeTarget "ipad txt editor" */;
+			buildPhases = (
+				A28B720D2EDD8AA400E882A0 /* Sources */,
+				A28B720E2EDD8AA400E882A0 /* Frameworks */,
+				A28B720F2EDD8AA400E882A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A28B72132EDD8AA400E882A0 /* ipad txt editor */,
+			);
+			name = "ipad txt editor";
+			packageProductDependencies = (
+				A28B724F2EDFF3B100E882A0 /* CodeEditor */,
+			);
+			productName = "ipad txt editor";
+			productReference = A28B72112EDD8AA400E882A0 /* ipad txt editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A28B72202EDD8AA600E882A0 /* ipad txt editorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28B72392EDD8AA600E882A0 /* Build configuration list for PBXNativeTarget "ipad txt editorTests" */;
+			buildPhases = (
+				A28B721D2EDD8AA600E882A0 /* Sources */,
+				A28B721E2EDD8AA600E882A0 /* Frameworks */,
+				A28B721F2EDD8AA600E882A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A28B72232EDD8AA600E882A0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A28B72242EDD8AA600E882A0 /* ipad txt editorTests */,
+			);
+			name = "ipad txt editorTests";
+			packageProductDependencies = (
+			);
+			productName = "ipad txt editorTests";
+			productReference = A28B72212EDD8AA600E882A0 /* ipad txt editorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A28B722A2EDD8AA600E882A0 /* ipad txt editorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28B723C2EDD8AA600E882A0 /* Build configuration list for PBXNativeTarget "ipad txt editorUITests" */;
+			buildPhases = (
+				A28B72272EDD8AA600E882A0 /* Sources */,
+				A28B72282EDD8AA600E882A0 /* Frameworks */,
+				A28B72292EDD8AA600E882A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A28B722D2EDD8AA600E882A0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A28B722E2EDD8AA600E882A0 /* ipad txt editorUITests */,
+			);
+			name = "ipad txt editorUITests";
+			packageProductDependencies = (
+			);
+			productName = "ipad txt editorUITests";
+			productReference = A28B722B2EDD8AA600E882A0 /* ipad txt editorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A28B72092EDD8AA400E882A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					A28B72102EDD8AA400E882A0 = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+					A28B72202EDD8AA600E882A0 = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = A28B72102EDD8AA400E882A0;
+					};
+					A28B722A2EDD8AA600E882A0 = {
+						CreatedOnToolsVersion = 26.1.1;
+						TestTargetID = A28B72102EDD8AA400E882A0;
+					};
+				};
+			};
+			buildConfigurationList = A28B720C2EDD8AA400E882A0 /* Build configuration list for PBXProject "ipad txt editor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A28B72082EDD8AA400E882A0;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A28B724B2EDD8FF300E882A0 /* XCRemoteSwiftPackageReference "CodeEditor" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A28B72122EDD8AA400E882A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A28B72102EDD8AA400E882A0 /* ipad txt editor */,
+				A28B72202EDD8AA600E882A0 /* ipad txt editorTests */,
+				A28B722A2EDD8AA600E882A0 /* ipad txt editorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A28B720F2EDD8AA400E882A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28B721F2EDD8AA600E882A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28B72292EDD8AA600E882A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A28B720D2EDD8AA400E882A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28B721D2EDD8AA600E882A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28B72272EDD8AA600E882A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A28B72232EDD8AA600E882A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A28B72102EDD8AA400E882A0 /* ipad txt editor */;
+			targetProxy = A28B72222EDD8AA600E882A0 /* PBXContainerItemProxy */;
+		};
+		A28B722D2EDD8AA600E882A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A28B72102EDD8AA400E882A0 /* ipad txt editor */;
+			targetProxy = A28B722C2EDD8AA600E882A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A28B72352EDD8AA600E882A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33D5X772W6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ipad txt editor/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ballboy.ipad-txt-editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A28B72362EDD8AA600E882A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33D5X772W6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ipad txt editor/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ballboy.ipad-txt-editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A28B72372EDD8AA600E882A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A28B72382EDD8AA600E882A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A28B723A2EDD8AA600E882A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ballboy.ipad-txt-editorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ipad txt editor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ipad txt editor";
+			};
+			name = Debug;
+		};
+		A28B723B2EDD8AA600E882A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ballboy.ipad-txt-editorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ipad txt editor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ipad txt editor";
+			};
+			name = Release;
+		};
+		A28B723D2EDD8AA600E882A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ballboy.ipad-txt-editorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ipad txt editor";
+			};
+			name = Debug;
+		};
+		A28B723E2EDD8AA600E882A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ballboy.ipad-txt-editorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ipad txt editor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A28B720C2EDD8AA400E882A0 /* Build configuration list for PBXProject "ipad txt editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28B72372EDD8AA600E882A0 /* Debug */,
+				A28B72382EDD8AA600E882A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28B72342EDD8AA600E882A0 /* Build configuration list for PBXNativeTarget "ipad txt editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28B72352EDD8AA600E882A0 /* Debug */,
+				A28B72362EDD8AA600E882A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28B72392EDD8AA600E882A0 /* Build configuration list for PBXNativeTarget "ipad txt editorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28B723A2EDD8AA600E882A0 /* Debug */,
+				A28B723B2EDD8AA600E882A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28B723C2EDD8AA600E882A0 /* Build configuration list for PBXNativeTarget "ipad txt editorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28B723D2EDD8AA600E882A0 /* Debug */,
+				A28B723E2EDD8AA600E882A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A28B724B2EDD8FF300E882A0 /* XCRemoteSwiftPackageReference "CodeEditor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ZeeZide/CodeEditor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A28B724F2EDFF3B100E882A0 /* CodeEditor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A28B724B2EDD8FF300E882A0 /* XCRemoteSwiftPackageReference "CodeEditor" */;
+			productName = CodeEditor;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A28B72092EDD8AA400E882A0 /* Project object */;
+}
